@@ -1,6 +1,6 @@
 body {
     background-color: #lflflf;
-    height: 2000px;
+    height: 1000px;
     color: #bfbfbf;
 }
 
@@ -9,7 +9,7 @@ h1 {
 }
 
 em {
-    color: #e07a05;
+    color: #dd740b;
 }
 
 .box {
@@ -21,8 +21,7 @@ em {
 .blueBox {
     background-color: #627da0;
     position: absolute;
-    margin-top: 50px;
-    margin-left: 50px;
+    bottom: 20px;
 }
 
 .greenBox {
@@ -31,9 +30,7 @@ em {
 
 .container {
     background-color: rgba(0, 0, 0, 0.4);
-    height: 200px;
     width: 200px;
-    margin-top: 300px;
-    margin-bottom: 5px;
-    position: absolute;
+    height: 200px;
+    position: relative;
 }
