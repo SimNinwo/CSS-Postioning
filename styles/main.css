@@ -9,7 +9,7 @@
     }
     
     em {
-        color: #dd740b;
+        color: #e07f07;
     }
     
     .box {
@@ -18,23 +18,7 @@
         margin-bottom: 10px;
     }
     
-    .blueBox {
-        background-color: #627da0;
-        position: relative;
-        z-index: 2;
-    }
-    
-    .greenBox {
-        background-color: #5b8054;
-        position: relative;
-        top: -150px;
-        /* controls the stacking order of elements*/
-        z-index: 1;
-    }
-    
-    .container {
-        background-color: rgba(0, 0, 0, 0.4);
-        width: 200px;
-        height: 200px;
-        position: relative;
+    .boxBlue {
+        background: #627da0;
+        float: right;
     }
