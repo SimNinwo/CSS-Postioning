@@ -9,16 +9,26 @@
     }
     
     em {
-        color: #e07f07;
+        color: #dd740b;
     }
     
     .box {
         width: 100px;
         height: 100px;
-        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
     }
     
-    .boxBlue {
+    .blueBox {
         background: #627da0;
-        float: right;
+        float: left;
+    }
+    
+    .greenBox {
+        background: #5b8054;
+        float: left;
+    }
+    
+    h1 {
+        clear: both;
     }
