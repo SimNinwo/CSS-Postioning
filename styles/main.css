@@ -20,8 +20,9 @@ em {
 
 .blueBox {
     background-color: #627da0;
-    position: static;
-    top: 150px;
+    /* look inside your parent element */
+    position: inherit;
+    left: 200px;
 }
 
 .greenBox {
@@ -29,8 +30,8 @@ em {
 }
 
 .container {
-    /* background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     width: 200px;
     height: 200px;
-    position: relative; */
+    position: relative;
 }
